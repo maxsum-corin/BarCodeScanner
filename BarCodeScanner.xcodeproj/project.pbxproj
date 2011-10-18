@@ -135,11 +135,6 @@
 		53A789DA144D20B0005A0007 = {
 			isa = PBXGroup;
 			children = (
-				53A78A53144D235E005A0007 /* CoreMedia.framework */,
-				53A78A51144D234A005A0007 /* SystemConfiguration.framework */,
-				53A78A4B144D2317005A0007 /* AVFoundation.framework */,
-				53A78A4C144D2317005A0007 /* CoreVideo.framework */,
-				53A78A4D144D2317005A0007 /* libiconv.dylib */,
 				53A789EF144D20B0005A0007 /* BarCodeScanner */,
 				53A789E8144D20B0005A0007 /* Frameworks */,
 				53A78A09144D20F6005A0007 /* ScannerKit-4.2.1 */,
@@ -158,9 +153,14 @@
 		53A789E8144D20B0005A0007 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				53A78A53144D235E005A0007 /* CoreMedia.framework */,
+				53A78A51144D234A005A0007 /* SystemConfiguration.framework */,
+				53A78A4B144D2317005A0007 /* AVFoundation.framework */,
+				53A78A4C144D2317005A0007 /* CoreVideo.framework */,
 				53A789E9144D20B0005A0007 /* UIKit.framework */,
 				53A789EB144D20B0005A0007 /* Foundation.framework */,
 				53A789ED144D20B0005A0007 /* CoreGraphics.framework */,
+				53A78A4D144D2317005A0007 /* libiconv.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

@@ -7,7 +7,6 @@
 //
 
 #import "MainViewController.h"
-#import "ScannerKit.h"
 
 @implementation MainViewController
 @synthesize scanButton;
@@ -67,11 +66,22 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
-#pragma mark - Flipside View
+#pragma mark - Flipside and Scanner Views
 
 - (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller
 {
     [self dismissModalViewControllerAnimated:YES];
+}
+
+- (void) scannerViewController:(SKScannerViewController *)scanner didRecognizeCode:(SKCode *)code {
+    NSLog(@"Scanner Code: %@", code.rawContent);
+    [self dismissModalViewControllerAnimated:YES];
+    scanner.delegate = nil;
+}
+
+- (void) scannerViewController:(SKScannerViewController *)scanner didStopLookingForCodesWithError:(NSError *)error {
+    [self dismissModalViewControllerAnimated:YES];
+    scanner.delegate = nil;
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
@@ -84,6 +94,7 @@
         scanner.shouldLookForEAN8Codes = YES;
         scanner.shouldLookForUPCECodes = YES;
         scanner.shouldLookForQRCodes = NO;
+        scanner.delegate = self;
     }
 }
 
