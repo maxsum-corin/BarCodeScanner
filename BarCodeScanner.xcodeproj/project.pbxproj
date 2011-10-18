@@ -16,6 +16,35 @@
 		53A789FD144D20B0005A0007 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53A789FB144D20B0005A0007 /* MainStoryboard.storyboard */; };
 		53A78A00144D20B0005A0007 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A789FF144D20B0005A0007 /* MainViewController.m */; };
 		53A78A03144D20B0005A0007 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A78A02144D20B0005A0007 /* FlipsideViewController.m */; };
+		53A78A33144D20F6005A0007 /* libScannerKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A78A18144D20F6005A0007 /* libScannerKit.a */; };
+		53A78A34144D20F6005A0007 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A1A144D20F6005A0007 /* Localizable.strings */; };
+		53A78A35144D20F6005A0007 /* ScannerKitActivitySpinner.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A1D144D20F6005A0007 /* ScannerKitActivitySpinner.png */; };
+		53A78A36144D20F6005A0007 /* ScannerKitActivitySpinner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A1E144D20F6005A0007 /* ScannerKitActivitySpinner@2x.png */; };
+		53A78A37144D20F6005A0007 /* ScannerKitBackIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A1F144D20F6005A0007 /* ScannerKitBackIcon.png */; };
+		53A78A38144D20F6005A0007 /* ScannerKitBackIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A20144D20F6005A0007 /* ScannerKitBackIcon@2x.png */; };
+		53A78A39144D20F6005A0007 /* ScannerKitEmptyIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A21144D20F6005A0007 /* ScannerKitEmptyIcon.png */; };
+		53A78A3A144D20F6005A0007 /* ScannerKitEmptyIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A22144D20F6005A0007 /* ScannerKitEmptyIcon@2x.png */; };
+		53A78A3B144D20F6005A0007 /* ScannerKitForwardIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A23144D20F6005A0007 /* ScannerKitForwardIcon.png */; };
+		53A78A3C144D20F6005A0007 /* ScannerKitForwardIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A24144D20F6005A0007 /* ScannerKitForwardIcon@2x.png */; };
+		53A78A3D144D20F6005A0007 /* ScannerKitHoldStillHandIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A25144D20F6005A0007 /* ScannerKitHoldStillHandIcon.png */; };
+		53A78A3E144D20F6005A0007 /* ScannerKitHoldStillHandIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A26144D20F6005A0007 /* ScannerKitHoldStillHandIcon@2x.png */; };
+		53A78A3F144D20F6005A0007 /* ScannerKitInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A27144D20F6005A0007 /* ScannerKitInfo.plist */; };
+		53A78A40144D20F6005A0007 /* ScannerKitLaser.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A28144D20F6005A0007 /* ScannerKitLaser.png */; };
+		53A78A41144D20F6005A0007 /* ScannerKitLaser@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A29144D20F6005A0007 /* ScannerKitLaser@2x.png */; };
+		53A78A42144D20F6005A0007 /* ScannerKitLaserGlow.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A2A144D20F6005A0007 /* ScannerKitLaserGlow.png */; };
+		53A78A43144D20F6005A0007 /* ScannerKitLaserGlow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A2B144D20F6005A0007 /* ScannerKitLaserGlow@2x.png */; };
+		53A78A44144D20F6005A0007 /* ScannerKitLoadingLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A2C144D20F6005A0007 /* ScannerKitLoadingLogo@2x.png */; };
+		53A78A45144D20F6005A0007 /* ScannerKitLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A2D144D20F6005A0007 /* ScannerKitLogo.png */; };
+		53A78A46144D20F6005A0007 /* ScannerKitLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A2E144D20F6005A0007 /* ScannerKitLogo@2x.png */; };
+		53A78A47144D20F6005A0007 /* ScannerKitOverlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A2F144D20F6005A0007 /* ScannerKitOverlay.png */; };
+		53A78A48144D20F6005A0007 /* ScannerKitOverlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A30144D20F6005A0007 /* ScannerKitOverlay@2x.png */; };
+		53A78A49144D20F6005A0007 /* ScannerKitOverlayStretchable.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A31144D20F6005A0007 /* ScannerKitOverlayStretchable.png */; };
+		53A78A4A144D20F6005A0007 /* ScannerKitOverlayStretchable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A32144D20F6005A0007 /* ScannerKitOverlayStretchable@2x.png */; };
+		53A78A4E144D2317005A0007 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A78A4B144D2317005A0007 /* AVFoundation.framework */; };
+		53A78A4F144D2317005A0007 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A78A4C144D2317005A0007 /* CoreVideo.framework */; };
+		53A78A50144D2317005A0007 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A78A4D144D2317005A0007 /* libiconv.dylib */; };
+		53A78A52144D234A005A0007 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A78A51144D234A005A0007 /* SystemConfiguration.framework */; };
+		53A78A54144D235E005A0007 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A78A53144D235E005A0007 /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,17 +52,60 @@
 		53A789E9144D20B0005A0007 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		53A789EB144D20B0005A0007 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		53A789ED144D20B0005A0007 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		53A789F1144D20B0005A0007 /* BarCodeScanner-Info.plist */ = {isa = PBXFileReference; path = "BarCodeScanner-Info.plist"; sourceTree = "<group>"; };
+		53A789F1144D20B0005A0007 /* BarCodeScanner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BarCodeScanner-Info.plist"; sourceTree = "<group>"; };
 		53A789F3144D20B0005A0007 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		53A789F5144D20B0005A0007 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		53A789F7144D20B0005A0007 /* BarCodeScanner-Prefix.pch */ = {isa = PBXFileReference; path = "BarCodeScanner-Prefix.pch"; sourceTree = "<group>"; };
-		53A789F8144D20B0005A0007 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		53A789F7144D20B0005A0007 /* BarCodeScanner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BarCodeScanner-Prefix.pch"; sourceTree = "<group>"; };
+		53A789F8144D20B0005A0007 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		53A789F9144D20B0005A0007 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		53A789FC144D20B0005A0007 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		53A789FE144D20B0005A0007 /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		53A789FE144D20B0005A0007 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		53A789FF144D20B0005A0007 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		53A78A01144D20B0005A0007 /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		53A78A01144D20B0005A0007 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		53A78A02144D20B0005A0007 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		53A78A0B144D20F6005A0007 /* ScannerKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannerKit.h; sourceTree = "<group>"; };
+		53A78A0C144D20F6005A0007 /* SKBarcodeCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBarcodeCode.h; sourceTree = "<group>"; };
+		53A78A0D144D20F6005A0007 /* SKCalendarEventQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCalendarEventQRCode.h; sourceTree = "<group>"; };
+		53A78A0E144D20F6005A0007 /* SKCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCode.h; sourceTree = "<group>"; };
+		53A78A0F144D20F6005A0007 /* SKContactInformationQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKContactInformationQRCode.h; sourceTree = "<group>"; };
+		53A78A10144D20F6005A0007 /* SKEmailTemplateQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKEmailTemplateQRCode.h; sourceTree = "<group>"; };
+		53A78A11144D20F6005A0007 /* SKGeographicLocationQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKGeographicLocationQRCode.h; sourceTree = "<group>"; };
+		53A78A12144D20F6005A0007 /* SKPhoneNumberQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPhoneNumberQRCode.h; sourceTree = "<group>"; };
+		53A78A13144D20F6005A0007 /* SKScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKScannerViewController.h; sourceTree = "<group>"; };
+		53A78A14144D20F6005A0007 /* SKScannerViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKScannerViewControllerDelegate.h; sourceTree = "<group>"; };
+		53A78A15144D20F6005A0007 /* SKSMSTemplateQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSMSTemplateQRCode.h; sourceTree = "<group>"; };
+		53A78A16144D20F6005A0007 /* SKTextQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTextQRCode.h; sourceTree = "<group>"; };
+		53A78A17144D20F6005A0007 /* SKURLQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKURLQRCode.h; sourceTree = "<group>"; };
+		53A78A18144D20F6005A0007 /* libScannerKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libScannerKit.a; sourceTree = "<group>"; };
+		53A78A1B144D20F6005A0007 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		53A78A1C144D20F6005A0007 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		53A78A1D144D20F6005A0007 /* ScannerKitActivitySpinner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScannerKitActivitySpinner.png; sourceTree = "<group>"; };
+		53A78A1E144D20F6005A0007 /* ScannerKitActivitySpinner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScannerKitActivitySpinner@2x.png"; sourceTree = "<group>"; };
+		53A78A1F144D20F6005A0007 /* ScannerKitBackIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScannerKitBackIcon.png; sourceTree = "<group>"; };
+		53A78A20144D20F6005A0007 /* ScannerKitBackIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScannerKitBackIcon@2x.png"; sourceTree = "<group>"; };
+		53A78A21144D20F6005A0007 /* ScannerKitEmptyIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScannerKitEmptyIcon.png; sourceTree = "<group>"; };
+		53A78A22144D20F6005A0007 /* ScannerKitEmptyIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScannerKitEmptyIcon@2x.png"; sourceTree = "<group>"; };
+		53A78A23144D20F6005A0007 /* ScannerKitForwardIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScannerKitForwardIcon.png; sourceTree = "<group>"; };
+		53A78A24144D20F6005A0007 /* ScannerKitForwardIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScannerKitForwardIcon@2x.png"; sourceTree = "<group>"; };
+		53A78A25144D20F6005A0007 /* ScannerKitHoldStillHandIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScannerKitHoldStillHandIcon.png; sourceTree = "<group>"; };
+		53A78A26144D20F6005A0007 /* ScannerKitHoldStillHandIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScannerKitHoldStillHandIcon@2x.png"; sourceTree = "<group>"; };
+		53A78A27144D20F6005A0007 /* ScannerKitInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ScannerKitInfo.plist; sourceTree = "<group>"; };
+		53A78A28144D20F6005A0007 /* ScannerKitLaser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScannerKitLaser.png; sourceTree = "<group>"; };
+		53A78A29144D20F6005A0007 /* ScannerKitLaser@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScannerKitLaser@2x.png"; sourceTree = "<group>"; };
+		53A78A2A144D20F6005A0007 /* ScannerKitLaserGlow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScannerKitLaserGlow.png; sourceTree = "<group>"; };
+		53A78A2B144D20F6005A0007 /* ScannerKitLaserGlow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScannerKitLaserGlow@2x.png"; sourceTree = "<group>"; };
+		53A78A2C144D20F6005A0007 /* ScannerKitLoadingLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScannerKitLoadingLogo@2x.png"; sourceTree = "<group>"; };
+		53A78A2D144D20F6005A0007 /* ScannerKitLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScannerKitLogo.png; sourceTree = "<group>"; };
+		53A78A2E144D20F6005A0007 /* ScannerKitLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScannerKitLogo@2x.png"; sourceTree = "<group>"; };
+		53A78A2F144D20F6005A0007 /* ScannerKitOverlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScannerKitOverlay.png; sourceTree = "<group>"; };
+		53A78A30144D20F6005A0007 /* ScannerKitOverlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScannerKitOverlay@2x.png"; sourceTree = "<group>"; };
+		53A78A31144D20F6005A0007 /* ScannerKitOverlayStretchable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScannerKitOverlayStretchable.png; sourceTree = "<group>"; };
+		53A78A32144D20F6005A0007 /* ScannerKitOverlayStretchable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScannerKitOverlayStretchable@2x.png"; sourceTree = "<group>"; };
+		53A78A4B144D2317005A0007 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		53A78A4C144D2317005A0007 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		53A78A4D144D2317005A0007 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		53A78A51144D234A005A0007 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		53A78A53144D235E005A0007 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,9 +113,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53A78A54144D235E005A0007 /* CoreMedia.framework in Frameworks */,
+				53A78A52144D234A005A0007 /* SystemConfiguration.framework in Frameworks */,
+				53A78A4E144D2317005A0007 /* AVFoundation.framework in Frameworks */,
+				53A78A4F144D2317005A0007 /* CoreVideo.framework in Frameworks */,
+				53A78A50144D2317005A0007 /* libiconv.dylib in Frameworks */,
 				53A789EA144D20B0005A0007 /* UIKit.framework in Frameworks */,
 				53A789EC144D20B0005A0007 /* Foundation.framework in Frameworks */,
 				53A789EE144D20B0005A0007 /* CoreGraphics.framework in Frameworks */,
+				53A78A33144D20F6005A0007 /* libScannerKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,8 +131,14 @@
 		53A789DA144D20B0005A0007 = {
 			isa = PBXGroup;
 			children = (
+				53A78A53144D235E005A0007 /* CoreMedia.framework */,
+				53A78A51144D234A005A0007 /* SystemConfiguration.framework */,
+				53A78A4B144D2317005A0007 /* AVFoundation.framework */,
+				53A78A4C144D2317005A0007 /* CoreVideo.framework */,
+				53A78A4D144D2317005A0007 /* libiconv.dylib */,
 				53A789EF144D20B0005A0007 /* BarCodeScanner */,
 				53A789E8144D20B0005A0007 /* Frameworks */,
+				53A78A09144D20F6005A0007 /* ScannerKit-4.2.1 */,
 				53A789E6144D20B0005A0007 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +187,66 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		53A78A09144D20F6005A0007 /* ScannerKit-4.2.1 */ = {
+			isa = PBXGroup;
+			children = (
+				53A78A0A144D20F6005A0007 /* Headers */,
+				53A78A18144D20F6005A0007 /* libScannerKit.a */,
+				53A78A19144D20F6005A0007 /* Resources */,
+			);
+			path = "ScannerKit-4.2.1";
+			sourceTree = "<group>";
+		};
+		53A78A0A144D20F6005A0007 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				53A78A0B144D20F6005A0007 /* ScannerKit.h */,
+				53A78A0C144D20F6005A0007 /* SKBarcodeCode.h */,
+				53A78A0D144D20F6005A0007 /* SKCalendarEventQRCode.h */,
+				53A78A0E144D20F6005A0007 /* SKCode.h */,
+				53A78A0F144D20F6005A0007 /* SKContactInformationQRCode.h */,
+				53A78A10144D20F6005A0007 /* SKEmailTemplateQRCode.h */,
+				53A78A11144D20F6005A0007 /* SKGeographicLocationQRCode.h */,
+				53A78A12144D20F6005A0007 /* SKPhoneNumberQRCode.h */,
+				53A78A13144D20F6005A0007 /* SKScannerViewController.h */,
+				53A78A14144D20F6005A0007 /* SKScannerViewControllerDelegate.h */,
+				53A78A15144D20F6005A0007 /* SKSMSTemplateQRCode.h */,
+				53A78A16144D20F6005A0007 /* SKTextQRCode.h */,
+				53A78A17144D20F6005A0007 /* SKURLQRCode.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		53A78A19144D20F6005A0007 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53A78A1A144D20F6005A0007 /* Localizable.strings */,
+				53A78A1D144D20F6005A0007 /* ScannerKitActivitySpinner.png */,
+				53A78A1E144D20F6005A0007 /* ScannerKitActivitySpinner@2x.png */,
+				53A78A1F144D20F6005A0007 /* ScannerKitBackIcon.png */,
+				53A78A20144D20F6005A0007 /* ScannerKitBackIcon@2x.png */,
+				53A78A21144D20F6005A0007 /* ScannerKitEmptyIcon.png */,
+				53A78A22144D20F6005A0007 /* ScannerKitEmptyIcon@2x.png */,
+				53A78A23144D20F6005A0007 /* ScannerKitForwardIcon.png */,
+				53A78A24144D20F6005A0007 /* ScannerKitForwardIcon@2x.png */,
+				53A78A25144D20F6005A0007 /* ScannerKitHoldStillHandIcon.png */,
+				53A78A26144D20F6005A0007 /* ScannerKitHoldStillHandIcon@2x.png */,
+				53A78A27144D20F6005A0007 /* ScannerKitInfo.plist */,
+				53A78A28144D20F6005A0007 /* ScannerKitLaser.png */,
+				53A78A29144D20F6005A0007 /* ScannerKitLaser@2x.png */,
+				53A78A2A144D20F6005A0007 /* ScannerKitLaserGlow.png */,
+				53A78A2B144D20F6005A0007 /* ScannerKitLaserGlow@2x.png */,
+				53A78A2C144D20F6005A0007 /* ScannerKitLoadingLogo@2x.png */,
+				53A78A2D144D20F6005A0007 /* ScannerKitLogo.png */,
+				53A78A2E144D20F6005A0007 /* ScannerKitLogo@2x.png */,
+				53A78A2F144D20F6005A0007 /* ScannerKitOverlay.png */,
+				53A78A30144D20F6005A0007 /* ScannerKitOverlay@2x.png */,
+				53A78A31144D20F6005A0007 /* ScannerKitOverlayStretchable.png */,
+				53A78A32144D20F6005A0007 /* ScannerKitOverlayStretchable@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +282,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
 			);
 			mainGroup = 53A789DA144D20B0005A0007;
 			productRefGroup = 53A789E6144D20B0005A0007 /* Products */;
@@ -156,6 +301,29 @@
 			files = (
 				53A789F4144D20B0005A0007 /* InfoPlist.strings in Resources */,
 				53A789FD144D20B0005A0007 /* MainStoryboard.storyboard in Resources */,
+				53A78A34144D20F6005A0007 /* Localizable.strings in Resources */,
+				53A78A35144D20F6005A0007 /* ScannerKitActivitySpinner.png in Resources */,
+				53A78A36144D20F6005A0007 /* ScannerKitActivitySpinner@2x.png in Resources */,
+				53A78A37144D20F6005A0007 /* ScannerKitBackIcon.png in Resources */,
+				53A78A38144D20F6005A0007 /* ScannerKitBackIcon@2x.png in Resources */,
+				53A78A39144D20F6005A0007 /* ScannerKitEmptyIcon.png in Resources */,
+				53A78A3A144D20F6005A0007 /* ScannerKitEmptyIcon@2x.png in Resources */,
+				53A78A3B144D20F6005A0007 /* ScannerKitForwardIcon.png in Resources */,
+				53A78A3C144D20F6005A0007 /* ScannerKitForwardIcon@2x.png in Resources */,
+				53A78A3D144D20F6005A0007 /* ScannerKitHoldStillHandIcon.png in Resources */,
+				53A78A3E144D20F6005A0007 /* ScannerKitHoldStillHandIcon@2x.png in Resources */,
+				53A78A3F144D20F6005A0007 /* ScannerKitInfo.plist in Resources */,
+				53A78A40144D20F6005A0007 /* ScannerKitLaser.png in Resources */,
+				53A78A41144D20F6005A0007 /* ScannerKitLaser@2x.png in Resources */,
+				53A78A42144D20F6005A0007 /* ScannerKitLaserGlow.png in Resources */,
+				53A78A43144D20F6005A0007 /* ScannerKitLaserGlow@2x.png in Resources */,
+				53A78A44144D20F6005A0007 /* ScannerKitLoadingLogo@2x.png in Resources */,
+				53A78A45144D20F6005A0007 /* ScannerKitLogo.png in Resources */,
+				53A78A46144D20F6005A0007 /* ScannerKitLogo@2x.png in Resources */,
+				53A78A47144D20F6005A0007 /* ScannerKitOverlay.png in Resources */,
+				53A78A48144D20F6005A0007 /* ScannerKitOverlay@2x.png in Resources */,
+				53A78A49144D20F6005A0007 /* ScannerKitOverlayStretchable.png in Resources */,
+				53A78A4A144D20F6005A0007 /* ScannerKitOverlayStretchable@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +358,15 @@
 				53A789FC144D20B0005A0007 /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		53A78A1A144D20F6005A0007 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53A78A1B144D20F6005A0007 /* de */,
+				53A78A1C144D20F6005A0007 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -243,9 +420,21 @@
 		53A78A07144D20B0005A0007 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BarCodeScanner/BarCodeScanner-Prefix.pch";
 				INFOPLIST_FILE = "BarCodeScanner/BarCodeScanner-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ScannerKit-4.2.1\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -254,9 +443,21 @@
 		53A78A08144D20B0005A0007 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BarCodeScanner/BarCodeScanner-Prefix.pch";
 				INFOPLIST_FILE = "BarCodeScanner/BarCodeScanner-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ScannerKit-4.2.1\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
