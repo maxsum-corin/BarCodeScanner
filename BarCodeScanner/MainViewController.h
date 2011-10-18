@@ -9,5 +9,6 @@
 #import "FlipsideViewController.h"
 
 @interface MainViewController : UIViewController <FlipsideViewControllerDelegate>
+@property (strong, nonatomic) IBOutlet UIButton *scanButton;
 
 @end

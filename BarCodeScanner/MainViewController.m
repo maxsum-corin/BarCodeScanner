@@ -7,8 +7,10 @@
 //
 
 #import "MainViewController.h"
+#import "ScannerKit.h"
 
 @implementation MainViewController
+@synthesize scanButton;
 
 
 - (void)didReceiveMemoryWarning
@@ -27,6 +29,7 @@
 
 - (void)viewDidUnload
 {
+    [self setScanButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -40,6 +43,12 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+    if (![SKScannerViewController canRecognizeBarcodes]) {
+        [[self scanButton] setEnabled:NO];
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Sorry" message:@"This device doesn't support barcode recognition." delegate:self cancelButtonTitle:@"Bugger" otherButtonTitles:nil];
+        
+		[alertView show];
+    }
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -69,6 +78,12 @@
 {
     if ([[segue identifier] isEqualToString:@"showAlternate"]) {
         [[segue destinationViewController] setDelegate:self];
+    } else if ([[segue identifier] isEqualToString:@"showscanner"]) {
+        SKScannerViewController *scanner = [segue destinationViewController];
+        scanner.shouldLookForEAN13AndUPCACodes = YES;
+        scanner.shouldLookForEAN8Codes = YES;
+        scanner.shouldLookForUPCECodes = YES;
+        scanner.shouldLookForQRCodes = NO;
     }
 }
 
