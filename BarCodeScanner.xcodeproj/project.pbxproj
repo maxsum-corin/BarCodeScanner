@@ -45,6 +45,8 @@
 		53A78A50144D2317005A0007 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A78A4D144D2317005A0007 /* libiconv.dylib */; };
 		53A78A52144D234A005A0007 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A78A51144D234A005A0007 /* SystemConfiguration.framework */; };
 		53A78A54144D235E005A0007 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A78A53144D235E005A0007 /* CoreMedia.framework */; };
+		53A78A5E144D2502005A0007 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A5D144D2502005A0007 /* Icon.png */; };
+		53A78A60144D2507005A0007 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A78A5F144D2507005A0007 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +108,8 @@
 		53A78A4D144D2317005A0007 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		53A78A51144D234A005A0007 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		53A78A53144D235E005A0007 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		53A78A5D144D2502005A0007 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		53A78A5F144D2507005A0007 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,13 +168,8 @@
 		53A789EF144D20B0005A0007 /* BarCodeScanner */ = {
 			isa = PBXGroup;
 			children = (
-				53A789F8144D20B0005A0007 /* AppDelegate.h */,
-				53A789F9144D20B0005A0007 /* AppDelegate.m */,
-				53A789FB144D20B0005A0007 /* MainStoryboard.storyboard */,
-				53A789FE144D20B0005A0007 /* MainViewController.h */,
-				53A789FF144D20B0005A0007 /* MainViewController.m */,
-				53A78A01144D20B0005A0007 /* FlipsideViewController.h */,
-				53A78A02144D20B0005A0007 /* FlipsideViewController.m */,
+				53A78A55144D2458005A0007 /* Classes */,
+				53A78A57144D248B005A0007 /* Resources */,
 				53A789F0144D20B0005A0007 /* Supporting Files */,
 			);
 			path = BarCodeScanner;
@@ -180,9 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				53A789F1144D20B0005A0007 /* BarCodeScanner-Info.plist */,
-				53A789F2144D20B0005A0007 /* InfoPlist.strings */,
-				53A789F5144D20B0005A0007 /* main.m */,
-				53A789F7144D20B0005A0007 /* BarCodeScanner-Prefix.pch */,
+				53A78A56144D2474005A0007 /* Other Sources */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -245,6 +242,47 @@
 				53A78A32144D20F6005A0007 /* ScannerKitOverlayStretchable@2x.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		53A78A55144D2458005A0007 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				53A789F8144D20B0005A0007 /* AppDelegate.h */,
+				53A789F9144D20B0005A0007 /* AppDelegate.m */,
+				53A789FE144D20B0005A0007 /* MainViewController.h */,
+				53A789FF144D20B0005A0007 /* MainViewController.m */,
+				53A78A01144D20B0005A0007 /* FlipsideViewController.h */,
+				53A78A02144D20B0005A0007 /* FlipsideViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		53A78A56144D2474005A0007 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				53A789F5144D20B0005A0007 /* main.m */,
+				53A789F7144D20B0005A0007 /* BarCodeScanner-Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		53A78A57144D248B005A0007 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53A78A61144D2516005A0007 /* Icons */,
+				53A789FB144D20B0005A0007 /* MainStoryboard.storyboard */,
+				53A789F2144D20B0005A0007 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		53A78A61144D2516005A0007 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				53A78A5F144D2507005A0007 /* Icon@2x.png */,
+				53A78A5D144D2502005A0007 /* Icon.png */,
+			);
+			name = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,6 +362,8 @@
 				53A78A48144D20F6005A0007 /* ScannerKitOverlay@2x.png in Resources */,
 				53A78A49144D20F6005A0007 /* ScannerKitOverlayStretchable.png in Resources */,
 				53A78A4A144D20F6005A0007 /* ScannerKitOverlayStretchable@2x.png in Resources */,
+				53A78A5E144D2502005A0007 /* Icon.png in Resources */,
+				53A78A60144D2507005A0007 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
