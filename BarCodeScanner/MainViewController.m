@@ -7,6 +7,7 @@
 //
 
 #import "MainViewController.h"
+#import "CustomScannerViewController.h"
 
 @implementation MainViewController
 @synthesize scanButton;
@@ -88,14 +89,34 @@
 {
     if ([[segue identifier] isEqualToString:@"showAlternate"]) {
         [[segue destinationViewController] setDelegate:self];
-    } else if ([[segue identifier] isEqualToString:@"showscanner"]) {
-        SKScannerViewController *scanner = [segue destinationViewController];
-        scanner.shouldLookForEAN13AndUPCACodes = YES;
-        scanner.shouldLookForEAN8Codes = YES;
-        scanner.shouldLookForUPCECodes = YES;
-        scanner.shouldLookForQRCodes = NO;
-        scanner.delegate = self;
     }
 }
+
+- (IBAction) scanTapped:(id)sender {
+	if([SKScannerViewController canRecognizeBarcodes]) { //Make sure we can even attempt barcode recognition, (i.e. on a device without a camera, you wouldn't be able to scan anything).
+		SKScannerViewController *scannerVC = [[SKScannerViewController alloc] init]; //Insantiate a new SKScannerViewController
+		
+        scannerVC.shouldLookForEAN13AndUPCACodes = YES;
+        scannerVC.shouldLookForEAN8Codes = YES;
+        scannerVC.shouldLookForUPCECodes = YES;
+        scannerVC.shouldLookForQRCodes = NO;
+        scannerVC.delegate = self;
+
+		scannerVC.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(cancelTapped)];
+		scannerVC.title = @"Scan a Barcode";
+
+		UINavigationController *_nc = [[UINavigationController alloc] initWithRootViewController:scannerVC]; //Put our SKScannerViewController into a UINavigationController. (So it looks nice).
+
+		[self presentModalViewController:_nc animated:YES]; //Slide it up onto the screen.
+	} else {
+		UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Sorry" message:@"This device doesn't support barcode recognition." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+		
+		[alertView show];
+	}
+}
+- (void) cancelTapped {
+	[self dismissModalViewControllerAnimated:YES];
+}
+ 
 
 @end

@@ -12,4 +12,6 @@
 @interface MainViewController : UIViewController <FlipsideViewControllerDelegate, SKScannerViewControllerDelegate>
 @property (strong, nonatomic) IBOutlet UIButton *scanButton;
 
+- (IBAction)scanTapped:(id)sender;
+
 @end
